@@ -1,12 +1,12 @@
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:birthday_remainder/Controller/DarkController.dart';
-import 'package:birthday_remainder/Screens/Theme/ThemeData.dart';
-import 'package:birthday_remainder/custom_elements/custom_elements.dart';
+import 'package:birthday_remainder/Controller/dark_controller.dart';
+import 'package:birthday_remainder/Screens/Theme/theme_data.dart';
+import 'package:birthday_remainder/customElement/custom_elements.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'Route/Screens.dart';
-import 'Route/Routes.dart';
+import 'Route/screens.dart';
+import 'Route/routes.dart';
 import 'Utils/HiveStoreUtil.dart';
 
 void main() async {

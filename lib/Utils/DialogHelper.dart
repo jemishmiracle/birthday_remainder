@@ -1,10 +1,10 @@
-import 'package:birthday_remainder/custom_elements/custom_elements.dart';
+import 'package:birthday_remainder/customElement/custom_elements.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
-import '../Route/Routes.dart';
+import '../Route/routes.dart';
 
 class DialogHelper {
   static DeleteConfirmationDialog(String title,String message,{required VoidCallback onYes,Color? bgColor,TextStyle? textStyle,Color? iconColor,Color? buttonColor}) {

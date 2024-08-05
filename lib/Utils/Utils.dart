@@ -1,7 +1,7 @@
 import 'dart:io';
-import 'package:birthday_remainder/custom_elements/custom_elements.dart';
+import 'package:birthday_remainder/customElement/custom_elements.dart';
 import 'package:get/get.dart';
-import 'package:birthday_remainder/Constants/Constants.dart';
+import 'package:birthday_remainder/Constants/constants.dart';
 import 'package:birthday_remainder/Utils/Extentions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
